@@ -1,0 +1,148 @@
+/*body style*/
+body {
+    font-family:"Times New Roman";
+    background-color: black;
+    color: orange;
+}
+/*webpage title style*/
+#title {
+    text-shadow:2px 2px 3px rgba(255, 0, 0, 0.5);
+}
+
+/*header style*/
+h1, h3, h4, h5, h6 {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 50pt;
+}
+
+/*h2 style*/
+h2 {
+    font-size: 30pt;
+}
+
+header {
+    text-align:center;
+}
+
+/*name style*/
+#hero, footer {
+    color: orange;
+    border: 2px solid red;
+    background-color: rgb(27, 27, 27);
+    text-align:center;
+    padding:10px;
+    font-size:30px;
+    font-style:italic;
+}
+
+/*hero image style*/
+#hero img {
+    width:450px;
+}
+
+/*biography style*/
+#bio {
+    text-align:center;
+    font-size:25px;
+    padding:100px;
+    
+}
+
+/*portfolio style*/
+section#portfolio {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+/*portfolio style*/
+#portfolio {
+    background-color: rgb(40, 16, 0);
+    border: 2px solid rgb(101, 0, 0);
+    font-size:30px;
+    
+}
+
+/*portfolio h2 style*/
+#portfolio h2 {
+    text-align:center;
+}
+
+/*image gallery background style*/
+#gallery {
+    background-color: rgb(13, 0, 33);
+    border: 2px solid rgb(134, 1, 182);
+    margin-bottom:2rem;
+}
+
+/*image gallery h2 style*/
+#gallery h2 {
+    text-align:center;
+}
+
+/*image gallery image size*/
+#gallery img{
+    max-width:100%;
+}
+
+/*image gallery caption style*/
+#gallery figure{
+    font-size:20px;
+    text-align:center;
+}
+
+/*client reviews background style*/
+#reviews {
+    border: 2px solid rgb(0, 4, 132);
+    margin-bottom:2rem;
+    background-color: rgb(0, 1, 51);
+}
+
+/*client reviews content container style*/
+#reviews div {
+    padding:2rem;
+    max-width:40rem;
+    margin: 0 auto;
+}
+
+/*client reviews paragraph style*/
+#reviews div p {
+    padding:1rem 0;
+    clear:both;
+    font-size:1.5rem;
+}
+
+/*client reviews h2 style*/
+#reviews h2 {
+    text-align:center;
+}
+
+/*contact information background style*/
+#contact {
+    border: 2px solid rgb(229, 229, 229);
+    margin-bottom:2rem;
+    background-color: rgb(35, 0, 4);
+}
+
+/*contact information container style*/
+#contact div {
+    padding:2rem;
+    max-width:40rem;
+    margin: 0 auto;
+}
+
+/*contact information paragraph style*/
+#contact div p {
+    padding:1rem 0;
+    clear:both;
+    font-size:1.5rem;
+    background-color: black;
+    color: red;
+}
+
+/*contact information h2 style*/
+#contact h2 {
+    text-align:center;
+}
+
+
